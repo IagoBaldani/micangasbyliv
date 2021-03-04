@@ -4,12 +4,20 @@ const qsla = el => document.querySelectorAll(el);
 
 qsl('.drop').addEventListener('click', ()=>{
     let dropArea = qsl(".dropdown");
-
+    let dropWidth = qsl(".drop");
+    
     if(dropArea.style.height=='120px'){
         dropArea.style.height = '0px';
     }
     else{
         dropArea.style.height = '120px';
+    }
+
+    if(dropWidth.style.width > '750px'){
+        dropWidth.style.display = 'none'; 
+    }
+    else{
+        dropWidth.style.display = 'flex'; 
     }
 }); 
 

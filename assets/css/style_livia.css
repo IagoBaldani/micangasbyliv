@@ -432,6 +432,10 @@ footer{
         font-size: 15px;
     }
 
+    .dropdownitem{
+        flex:1;
+    }
+
 
     .dropdownitem:first-child,
     .dropdownitem:last-child{

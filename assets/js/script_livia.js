@@ -5,13 +5,13 @@ const qsla = el => document.querySelectorAll(el);
 qsl('.drop').addEventListener('click', ()=>{
     let dropArea = qsl(".dropdown");
 
-    if(dropArea.style.display=='flex'){
-        dropArea.style.display = 'none';
+    if(dropArea.style.height=='120px'){
+        dropArea.style.height = '0px';
     }
     else{
-        dropArea.style.display = 'flex';
+        dropArea.style.height = '120px';
     }
-});
+}); 
 
 produtosJson.map((item,index)=>{
     let prodItem = qsl('.models .item').cloneNode(true);

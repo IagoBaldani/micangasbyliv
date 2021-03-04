@@ -5,12 +5,12 @@ const qsla = el => document.querySelectorAll(el);
 qsl('.drop').addEventListener('click', ()=>{
     let dropArea = qsl(".dropdown");
     let dropWidth = qsl(".drop");
-    
-    if(dropArea.style.height=='120px'){
-        dropArea.style.height = '0px';
+
+    if(dropArea.style.display=='flex'){
+        dropArea.style.display = 'none';
     }
     else{
-        dropArea.style.height = '120px';
+        dropArea.style.display = 'flex';
     }
 
     if(dropWidth.style.width > '750px'){
@@ -19,7 +19,7 @@ qsl('.drop').addEventListener('click', ()=>{
     else{
         dropWidth.style.display = 'flex'; 
     }
-}); 
+});
 
 produtosJson.map((item,index)=>{
     let prodItem = qsl('.models .item').cloneNode(true);
@@ -54,13 +54,12 @@ produtosJson.map((item,index)=>{
 });
 
 window.onload = function(){
-    document.querySelector(".menu-mobile").addEventListener("click",function(){
-        console.log("clicou");
-        if(document.querySelector(".menuint ul").style.display == 'flex'){
-            document.querySelector(".menuint ul").style.display = 'none';
+    qsl(".menu-mobile").addEventListener("click",function(){
+        if(qsl(".menuint ul").style.display == 'flex'){
+            qsl(".menuint ul").style.display = 'none';
         }
         else{
-            document.querySelector(".menuint ul").style.display = 'flex';
+            qsl(".menuint ul").style.display = 'flex';
         }
     })
 }

@@ -75,7 +75,6 @@ a{
 header{
     height: 100px;
     background-color: #F5B5C1;
-    z-index: 99;
 }
 
 .logo{
@@ -129,9 +128,8 @@ header{
 
 .dropdown{
     cursor: pointer;
-    height: 0px;
     top:100px;
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: rgba(222, 154, 149, 0.7);
     border-bottom-left-radius: 10px;
@@ -141,7 +139,6 @@ header{
 }
 
 .dropdownitem{
-    overflow: hidden;
     text-transform: uppercase;
     font-weight: lighter;
     display: flex;

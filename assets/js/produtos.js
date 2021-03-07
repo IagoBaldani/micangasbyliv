@@ -48,10 +48,11 @@ produtosJson=[
     {id:'3@1',preco: 9.99,img: 'assets/images/outros/1.jpg', tipo:'outros'},
     {id:'3@2',preco: 24.99,img: 'assets/images/outros/2.jpg', tipo:'outros'},
     {id:'3@3',preco: 29.99,img: 'assets/images/outros/3.jpg', tipo:'outros'},
-    {id:'3@4',preco: 27.99,img: 'assets/images/outros/4.jpg', tipo:'outros'},
-    {id:'3@5',preco: 11.99,img: 'assets/images/outros/5.jpg', tipo:'outros'},
-    {id:'3@6',preco: 9.99,img: 'assets/images/outros/6.jpg', tipo:'outros'},
+    {id:'3@4',preco: 42.99,img: 'assets/images/outros/4.jpg', tipo:'outros'},
+    {id:'3@5',preco: 27.99,img: 'assets/images/outros/5.jpg', tipo:'outros'},
+    {id:'3@6',preco: 11.99,img: 'assets/images/outros/6.jpg', tipo:'outros'},
     {id:'3@7',preco: 9.99,img: 'assets/images/outros/7.jpg', tipo:'outros'},
-    {id:'3@8',preco: 29.99,img: 'assets/images/outros/8.jpg', tipo:'outros'},
+    {id:'3@8',preco: 9.99,img: 'assets/images/outros/8.jpg', tipo:'outros'},
+    {id:'3@9',preco: 29.99,img: 'assets/images/outros/9.jpg', tipo:'outros'},
 ]
 

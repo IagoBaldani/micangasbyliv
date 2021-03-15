@@ -22,7 +22,7 @@ produtosJson=[
     {id:'1@20',preco: 17.99,img: 'assets/images/chaveiros/18.jpg', tipo:'chaveiro'},
 
     {id:'2@1',preco: 13.99,img: 'assets/images/chockers/30.jpg', tipo:'chockers'},
-    {id:'2@2',preco: 29.99,img: 'assets/images/chockers/31.jpg', tipo:'chockers'},
+    {id:'2@2',preco: 19.99,img: 'assets/images/chockers/31.jpg', tipo:'chockers'},
     {id:'2@3',preco: 19.99,img: 'assets/images/chockers/26.jpg', tipo:'chockers'},
     {id:'2@4',preco: 24.99,img: 'assets/images/chockers/27.jpg', tipo:'chockers'},
     {id:'2@5',preco: 24.99,img: 'assets/images/chockers/28.jpg', tipo:'chockers'},

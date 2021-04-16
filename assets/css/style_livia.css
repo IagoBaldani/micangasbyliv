@@ -74,7 +74,7 @@ a{
 
 header{
     height: 100px;
-    background-color: #F5B5C1;
+    background-color: #c1dadf;
 }
 
 .logo{
@@ -111,7 +111,7 @@ header{
     height: 100px;
     padding-left: 20px;
     padding-right: 20px;
-    border-bottom: 6px solid #F5B5C1;
+    border-bottom: 6px solid #f7cfd8;
     cursor: pointer;
 }
 
@@ -196,7 +196,7 @@ header{
 }
 
 .banner_principal span{
-    color:#DE9A95;
+    color:#c1dadf;
     text-shadow: 0 0 25px #333;
 }
 
@@ -206,7 +206,7 @@ header{
 
 .banner_principal a{
     display: inline-block;
-    background-color: #DE9A95;
+    background-color: #c1dadf;
     margin-top: 40px;
     font-size: 20px;
     font-weight: bold;
@@ -242,6 +242,10 @@ header{
     padding-bottom: 35px;
 }
 
+#sobre.total{
+    background-color: #c1dadf;
+}
+
 
 /*************************************/
 /*        SECTIONS - ITEMS           */
@@ -270,7 +274,7 @@ header{
 }
 
 .item-area--chockers .item{
-    background-color: #DE9A95;
+    background-color: #f7cfd8;
 }
 
 .flex-items{
@@ -305,7 +309,11 @@ header{
 }
 
 .chaveiros, .outros{
-    background-color: #F5B5C1;
+    background-color: #f7cfd8;
+}
+
+.chockers{
+    background-color: #c1dadf;
 }
 
 
@@ -316,7 +324,7 @@ header{
 .social{
     color: #FFF;
     height: 290px;
-    background-color: #F5B5C1;
+    background-color: #c1dadf;
 }
 
 .social .titulo{
@@ -335,7 +343,7 @@ header{
 }
 
 .social a:hover{
-    background-color: #DE9A95;
+    background-color: #f7cfd8;
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }

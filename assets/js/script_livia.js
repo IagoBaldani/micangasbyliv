@@ -46,6 +46,9 @@ produtosJson.map((item,index)=>{
         case 'chockers':
             qsl('.item-area--chockers').append(prodItem);
             break;
+        case 'brincos':
+            qsl('.item-area--brincos').append(prodItem);
+            break;
         case 'outros':
             qsl('.item-area--outros').append(prodItem);
             break;

@@ -230,7 +230,7 @@ header{
     text-align: center;
 }
 
-.sobre, .items, .social, .chaveiros, .chockers, .outros{
+.sobre, .items, .social, .chaveiros, .chockers, .brincos, .outros{
     justify-content: center;
     flex-direction: column;
     padding-top: 20px;
@@ -255,6 +255,7 @@ header{
 
 .item-area--chaveiros,
 .item-area--chockers,
+.item-area--brincos,
 .item-area--outros{
     max-width: 1200px;
     margin: auto;
@@ -273,7 +274,7 @@ header{
     box-shadow: 0 0 10px #333;
 }
 
-.item-area--chockers .item{
+.item-area--chockers .item, .item-area--outros .item{
     background-color: #f7cfd8;
 }
 
@@ -308,11 +309,11 @@ header{
     margin: 10px;
 }
 
-.chaveiros, .outros{
+.chaveiros, .brincos{
     background-color: #f7cfd8;
 }
 
-.chockers{
+.chockers, .outros{
     background-color: #c1dadf;
 }
 
@@ -324,7 +325,7 @@ header{
 .social{
     color: #FFF;
     height: 290px;
-    background-color: #c1dadf;
+    background-color: #f7cfd8;
 }
 
 .social .titulo{
@@ -388,6 +389,7 @@ footer{
 @media (max-width:1200px){
     .item-area--chaveiros, 
     .item-area--chockers,
+    .item-area--brincos,
     .item-area--outros{
         grid-template-columns: repeat(2,1fr);
         max-width: 750px;
@@ -467,6 +469,7 @@ footer{
 
     .item-area--chaveiros, 
     .item-area--chockers,
+    .item-area--brincos,
     .item-area--outros{
         grid-template-columns:1fr;
         max-width: 400px;
@@ -496,6 +499,7 @@ footer{
 
     .item-area--chaveiros, 
     .item-area--chockers,
+    .item-area--brincos,
     .item-area--outros{
         max-width: 320px;
     }
